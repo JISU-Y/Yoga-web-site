@@ -4,10 +4,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Yoga Site</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <div class="navbar-logo">
+        <i class="fas fa-disease"></i>
+      </div>
+      <div class="navbar-menu-container">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item" data-link="#home">Home</li>
+          <li class="navbar__menu__item" data-link="#about">About</li>
+          <li class="navbar__menu__item" data-link="#event">Event</li>
+          <li class="navbar__menu__item" data-link="#gallery">Gallery</li>
+          <li class="navbar__menu__item" data-link="#training">Training</li>
+          <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="home-container first">
+        <!-- img 백그라운드 -->
+        <!-- <img src="" alt="home-yoga1" class="home-yoga-image" /> -->
+        <h1 class="home-title">Balance Your Body and Mind</h1>
+        <p class="home-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque
+          officia ducimus blanditiis doloremque, iure soluta laudantium dolorum
+          officiis dignissimos.
+        </p>
+        <button class="join-btn">JOIN US NOW</button>
+      </div>
+      <div class="home-container second">
+        <h1 class="home-title">Pregnant Women Program</h1>
+        <p class="home-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque
+          officia ducimus blanditiis doloremque, iure soluta laudantium dolorum
+          officiis dignissimos.
+        </p>
+        <button class="join-btn">JOIN US NOW</button>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="about-program">
+        <div class="program">
+          <img src="" alt="" class="program-img" />
+          <h4>Program 1</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="program">
+          <img src="" alt="" class="program-img" />
+          <h4>Program 2</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="program">
+          <img src="" alt="" class="program-img" />
+          <h4>Program 3</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="about-learn">
+        <h1 class="about-title">Yoga Breathing or Pranayama</h1>
+        <p class="about-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          perspiciatis nobis harum adipisci. Nesciunt laudantium in consectetur
+          architecto illo ut?
+        </p>
+        <button class="learn-btn">LEARN MORE</button>
+      </div>
+    </section>
+    <!-- Event -->
+    <section id="event">
+      <h1 class="event-title">Join Now and Get 50% Off</h1>
+      <p class="event-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+        perspiciatis nobis harum adipisci. Nesciunt laudantium in consectetur
+        architecto illo ut?
+      </p>
+      <button class="join-btn">JOIN NOW</button>
+    </section>
+    <!-- Gallery -->
+    <section id="gallery">
+      <!-- <div class="gallery-container"></div> -->
+      <h1 class="gallery-title">Gallery</h1>
+      <p class="gallery-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem
+        fuga itaque, nisi placeat rerum.
+      </p>
+      <div class="gallery-card-container">
+        <div class="gallery-card">
+          <img src="" alt="" />
+          <h2>Facilis Gravida</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="gallery-card">
+          <img src="" alt="" />
+          <h2>Facilis Gravida</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="gallery-card">
+          <img src="" alt="" />
+          <h2>Facilis Gravida</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Training -->
+    <section id="training">
+      <h1 class="training-title">Yoga Training Video Showreel</h1>
+      <p class="training-description">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A molestiae
+        omnis rerum inventore distinctio quis. Corporis blanditiis inventore
+        commodi magni.
+      </p>
+      <div class="traning-link-container">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <h1 class="contact-title">Get in Touch</h1>
+      <p class="contact-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique
+        incidunt maiores eum magni nisi in a.
+      </p>
+      <form action="submit" class="info-card">
+        <input type="text" class="name" />
+        <input type="radio" class="gender" />
+        <input type="text" class="messages" />
+        <button class="send-btn">SEND MESSAGE</button>
+      </form>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

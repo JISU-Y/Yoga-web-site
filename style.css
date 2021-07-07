@@ -212,3 +212,40 @@ body {
 }
 
 /* Training */
+.training-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 25px;
+  background-color: burlywood;
+}
+
+.training-video {
+  width: 1200px;
+  height: 300px;
+  margin: 20px 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.training-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.training-title {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.training-description {
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+
+.training-link-container i {
+  font-size: 30px;
+  margin-right: 30px;
+}

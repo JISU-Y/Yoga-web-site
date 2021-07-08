@@ -317,3 +317,65 @@ body {
   padding: 10px 20px;
   cursor: pointer;
 }
+
+.yourCompany-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  color: #fff;
+}
+
+.yourCompany-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  margin: 50px 100px;
+}
+
+.company-info,
+.sitemap,
+.Lorem,
+.sitAmet {
+  width: 150px;
+  height: 100%;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.company-info {
+  width: 200px;
+  margin-right: 100px;
+}
+
+.sitemap-list,
+.Lorem-list,
+.sitAmet-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sitemap-list li,
+.Lorem-list li,
+.sitAmet-list li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+.copyright .icon-container {
+  font-size: 20px;
+}
+
+.copyright .icon-container i {
+  margin-right: 15px;
+  cursor: pointer;
+}

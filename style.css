@@ -251,3 +251,69 @@ body {
   margin-right: 30px;
   cursor: pointer;
 }
+
+/* Contact */
+.getInTouch-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  padding: 50px 0;
+}
+
+.getInTouch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  width: 70%;
+}
+
+.getInTouch-container .contact-title {
+  font-size: 3rem;
+  margin: 0 0 20px 0;
+}
+
+.getInTouch-container .contact-description {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.getInTouch-container .info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.getInTouch-container .info-card input {
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  background-color: lightgray;
+  width: 100%;
+  border: 0.5px solid gray;
+}
+
+.getInTouch-container .info-card input:focus {
+  outline: none;
+}
+
+.getInTouch-container .info-card input.messages {
+  margin-bottom: 30px;
+  padding: 10px 30px 60px 30px;
+}
+
+.getInTouch-container .info-card .send-btn {
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 0;
+  border: 0;
+  background-color: lightpink;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}

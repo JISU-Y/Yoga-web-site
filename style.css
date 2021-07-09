@@ -39,12 +39,11 @@ body {
 }
 
 .home-wrap {
-  background-color: lightsteelblue;
-  padding: 5rem 2.5rem;
+  background: center/100% no-repeat url("imgs/background1.PNG");
 }
 
 .home-wrap.second {
-  background-color: linen;
+  background: center/100% no-repeat url("imgs/background2.PNG");
 }
 
 .home-container {
@@ -71,7 +70,7 @@ body {
   margin-top: 30px;
   border-radius: 0;
   border: 0;
-  background-color: lightpink;
+  background-color: #e5ccc6;
   font-weight: bold;
   padding: 10px 20px;
   cursor: pointer;
@@ -83,7 +82,7 @@ body {
 }
 
 .about-program {
-  background-color: lightyellow;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +103,7 @@ body {
 }
 
 .program h4 {
-  margin: 10px 0 0 0;
+  margin: 10px 0;
 }
 
 .program p {
@@ -112,7 +111,8 @@ body {
 }
 
 .learn-wrap {
-  background-color: lightsteelblue;
+  display: flex;
+  background: center/100% no-repeat url("imgs/background.PNG");
   padding: 5rem 2.5rem;
 }
 
@@ -136,16 +136,22 @@ body {
   margin-top: 30px;
   border-radius: 0;
   border: 0;
-  background-color: lightpink;
+  background-color: #e5ccc6;
   font-weight: bold;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.learn-wrap .yoga-image {
+  width: 50%;
+  height: 80%;
 }
 
 /* Event */
 #event {
   display: flex;
   margin: 10px 0 50px 0;
+  background: center/100% no-repeat url("imgs/background3.PNG");
 }
 
 .event-container {
@@ -168,13 +174,16 @@ body {
 }
 
 /* Gallery */
+#gallery {
+  background: center/100% no-repeat url("imgs/background.PNG");
+}
+
 .gallery-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: darkseagreen;
 }
 
 .gallery-title {
@@ -199,8 +208,8 @@ body {
 }
 
 .gallery-card img {
-  width: 250px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .gallery-card h2 {
@@ -217,7 +226,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 100px 25px;
-  background-color: burlywood;
+  background-color: #e5ccc6;
 }
 
 .training-video {
@@ -257,7 +266,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkgray;
+  background: center/100% no-repeat url("imgs/background4.PNG");
   padding: 50px 0;
 }
 
@@ -293,9 +302,9 @@ body {
 .getInTouch-container .info-card input {
   margin-bottom: 20px;
   padding: 10px 30px;
-  background-color: lightgray;
+  background-color: #eee;
   width: 100%;
-  border: 0.5px solid gray;
+  border: 0.5px solid #ddd;
 }
 
 .getInTouch-container .info-card input:focus {
@@ -312,7 +321,7 @@ body {
   margin-top: 30px;
   border-radius: 0;
   border: 0;
-  background-color: lightpink;
+  background-color: #e5ccc6;
   font-weight: bold;
   padding: 10px 20px;
   cursor: pointer;
@@ -322,7 +331,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: teal;
+  background-color: #484f5b;
   color: #fff;
 }
 
@@ -379,3 +388,6 @@ body {
   margin-right: 15px;
   cursor: pointer;
 }
+
+/* pink #e5ccc6 */
+/* navy #484f5b */

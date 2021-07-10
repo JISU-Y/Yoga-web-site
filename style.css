@@ -96,7 +96,7 @@ body {
 #about {
   display: flex;
   flex-direction: column;
-  height: 1000px;
+  height: 100vh;
 }
 
 .about-program {
@@ -108,13 +108,14 @@ body {
 }
 
 .program {
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 30px;
+  padding: 30px;
 }
 
 .program-img {
@@ -469,6 +470,7 @@ body {
   cursor: pointer;
 }
 
+/* 1200px size */
 @media (max-width: 1200px) {
   #home {
     height: 100vh;
@@ -483,6 +485,10 @@ body {
   }
 
   /* About */
+  #about {
+    height: 80vh;
+  }
+
   .about-title {
     font-size: 2rem;
   }
@@ -557,7 +563,7 @@ body {
 
   /* Contact */
   #contact {
-    height: 70vh;
+    height: 80vh;
   }
 
   .getInTouch-container {

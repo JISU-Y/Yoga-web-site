@@ -89,9 +89,11 @@ body {
 #about {
   display: flex;
   flex-direction: column;
+  height: 800px;
 }
 
 .about-program {
+  height: 45%;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -121,13 +123,21 @@ body {
 }
 
 .learn-wrap {
+  height: 55%;
   display: flex;
-  background: center/100% no-repeat url("imgs/background.PNG");
-  padding: 5rem 2.5rem;
+  background: center no-repeat url("imgs/background.PNG");
+  background-size: cover;
+  justify-content: center;
+}
+
+.learn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .about-learn {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -159,19 +169,23 @@ body {
 
 /* Event */
 #event {
+  height: 450px;
+}
+
+.event-wrap {
+  height: 100%;
   display: flex;
-  margin: 10px 0 50px 0;
-  background: center/100% no-repeat url("imgs/background3.PNG");
+  background: center no-repeat url("imgs/background3.PNG");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 .event-container {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-}
-
-.event-container {
-  margin-left: 50%;
+  margin-left: 55%;
 }
 
 .event-title {

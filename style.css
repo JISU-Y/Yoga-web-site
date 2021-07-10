@@ -36,24 +36,34 @@ body {
 #home {
   display: flex;
   flex-direction: column;
+  height: 1000px;
 }
 
 .home-wrap {
-  background: center/100% no-repeat url("imgs/background1.PNG");
+  height: 50%;
+  background: center no-repeat url("imgs/background1.PNG");
+  background-size: cover;
+  display: flex;
 }
 
 .home-wrap.second {
-  background: center/100% no-repeat url("imgs/background2.PNG");
+  background: center no-repeat url("imgs/background2.PNG");
+  background-size: cover;
 }
 
 .home-container {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .home-container.first {
-  margin-left: 50%;
+  margin-left: 55%;
+}
+
+.home-container.second {
+  margin-left: 5%;
 }
 
 .home-title {

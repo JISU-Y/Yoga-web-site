@@ -22,8 +22,15 @@ body {
   padding: 2rem;
 }
 
+.navbar-menu-container {
+  width: 50%;
+  margin-right: 30px;
+}
+
 .navbar__menu {
   display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .navbar__menu__item {
@@ -36,7 +43,7 @@ body {
 #home {
   display: flex;
   flex-direction: column;
-  height: 1200px;
+  height: 200vh;
 }
 
 .home-wrap {
@@ -89,11 +96,11 @@ body {
 #about {
   display: flex;
   flex-direction: column;
-  height: 1200px;
+  height: 1000px;
 }
 
 .about-program {
-  height: 35%;
+  height: 40%;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -124,7 +131,7 @@ body {
 }
 
 .learn-wrap {
-  height: 65%;
+  height: 60%;
   display: flex;
   background: center no-repeat url("imgs/background.PNG");
   background-size: cover;
@@ -166,11 +173,12 @@ body {
 .learn-wrap .yoga-image {
   width: 45%;
   height: auto;
+  max-width: 500px;
 }
 
 /* Event */
 #event {
-  height: 800px;
+  height: 90vh;
 }
 
 .event-wrap {
@@ -200,7 +208,7 @@ body {
 
 /* Gallery */
 #gallery {
-  height: 800px;
+  height: 90vh;
 }
 
 .gallery-wrap {
@@ -237,7 +245,7 @@ body {
 
 .gallery-card {
   background-color: #fff;
-  margin: 0 30px;
+  margin: 0 50px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   max-width: 300px;
   cursor: pointer;
@@ -272,21 +280,22 @@ body {
 
 /* Training */
 #training {
-  height: 600px;
+  height: 80vh;
 }
 
 .training-wrap {
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 100px 25px;
   background-color: #e5ccc6;
 }
 
 .training-video {
-  width: 1200px;
-  height: 300px;
+  width: 500px;
+  height: auto;
+  max-width: 700px;
   margin: 20px 50px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -294,7 +303,8 @@ body {
 }
 
 .training-container {
-  height: 40%;
+  width: 40%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -318,7 +328,12 @@ body {
 }
 
 /* Contact */
+#contact {
+  height: 100vh;
+}
+
 .getInTouch-wrap {
+  height: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,6 +369,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 800px;
 }
 
 .getInTouch-container .info-card input {
@@ -390,6 +406,7 @@ body {
   align-items: center;
   background-color: #484f5b;
   color: #fff;
+  height: 30%;
 }
 
 .yourCompany-container {
@@ -411,11 +428,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-weight: bold;
 }
 
 .company-info {
   width: 200px;
   margin-right: 100px;
+}
+
+.company-info p {
+  font-weight: normal;
 }
 
 .sitemap-list,
@@ -424,6 +446,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 .sitemap-list li,
